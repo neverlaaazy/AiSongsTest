@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "front": "Оригинал",
+        "back": "яблоко",
+        "link": "../src/audio",
+        "setName":"song"
+    },
+    {
+        "id": 2,
+        "front": "Оригинал",
+        "back": "я",
+        "link": "",
+        "setName":"song"
+    }
+]

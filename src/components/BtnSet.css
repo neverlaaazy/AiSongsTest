@@ -1,0 +1,29 @@
+.set-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-top: 50px;
+}
+
+.list-set__btn{
+    color: #646cff;
+    transition: color 0.2s ease-in-out;
+}
+.list-set__btn:hover,
+.list-set__btn:focus{
+    color: aliceblue;
+}
+.list-set__item{
+    background-color: white;
+    border: #646cff 2px solid;
+    border-radius: 10%;
+    width: 100px;
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+}
+.list-set__item:hover,
+.list-set__item:focus{
+    background-color: #abb0ff;
+    border: white 2px solid;
+}

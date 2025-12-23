@@ -1,0 +1,116 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    min-height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex-grow: 1;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+/* .main_div_cards{
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-template-rows: 1;
+  gap: 50px;
+} */
+
+.cards_manipulator{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cards_mani_button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(80, 80, 80);
+  color: aliceblue;
+  width: 20px;
+  height: 30px;
+  border-radius: 20%;
+}
+
+.button_disabled{
+  background-color: rgb(39, 39, 39);
+  color: rgb(143, 143, 143);
+}
+
+
+.card {
+  position: relative;
+  display: flex;
+  max-width: 300px;
+  min-height: 300px;
+  margin: 20px auto;
+  align-items: center;
+  justify-content: center;
+  background-color: lavenderblush;
+  border: 2px rgb(0, 0, 0) solid;
+  border-radius: 10px;
+  cursor: pointer;
+  transform-style: preserve-3d;
+  color: black;
+  transition: all 0.2s ease-in-out;
+
+}
+.card-check{
+  transform: rotateX(180deg);
+}
+.card::after{
+  content: attr(data-back);
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lemonchiffon;
+  border: 2px rgb(0, 0, 0) solid;
+  border-radius: 7px;
+  transform: rotateX(180deg);
+  backface-visibility: hidden;
+}
+.read-the-docs {
+  color: #888;
+}

@@ -1,0 +1,17 @@
+.main_cards_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 800px;
+}
+.cards_manipulator{
+    padding-top: 40px;
+    width: 300px;
+}
+.main-div-set{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}

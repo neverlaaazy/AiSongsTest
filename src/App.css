@@ -86,12 +86,14 @@ main{
   margin: 20px auto;
   align-items: center;
   justify-content: center;
-  background-color: lavenderblush;
-  border: 2px rgb(0, 0, 0) solid;
+  background-color: #9da1fa;
+  border: 2px #8389fc solid;
   border-radius: 10px;
   cursor: pointer;
   transform-style: preserve-3d;
-  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
   transition: all 0.2s ease-in-out;
 
 }
@@ -105,8 +107,9 @@ main{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: lemonchiffon;
+  background-color: rgb(233, 233, 233);
   border: 2px rgb(0, 0, 0) solid;
+  color: black;
   border-radius: 7px;
   transform: rotateX(180deg);
   backface-visibility: hidden;

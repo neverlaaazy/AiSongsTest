@@ -2,15 +2,73 @@
     {
         "id": 1,
         "front": "AI",
-        "back": "apple",
-        "link": "",
+        "back": "Есть фильм, в котором вокруг пески, черви и СпЕцИи",
         "setName":"song"
     },
     {
         "id": 2,
         "front": "AI",
-        "back": "z",
-        "link": "",
+        "back": "Больная змея",
+        "setName":"song"
+    },
+    {
+        "id": 3,
+        "front": "AI",
+        "back": "Секрет наблюдения за поездами",
+        "setName":"song"
+    },
+    {
+        "id": 4,
+        "front": "AI",
+        "back": "Православный Игорь",
+        "setName":"song"
+    },
+    {
+        "id": 5,
+        "front": "AI",
+        "back": "Животной подвеске не надо гостей",
+        "setName":"song"
+    },
+    {
+        "id": 6,
+        "front": "AI",
+        "back": "Кризис среднего возраста в день святого Валентина",
+        "setName":"song"
+    },
+    {
+        "id": 7,
+        "front": "AI",
+        "back": "Гитарист группы Anacondaz",
+        "setName":"song"
+    },
+    {
+        "id": 8,
+        "front": "AI",
+        "back": "Ходячие мертвые клоуны",
+        "setName":"song"
+    },
+    {
+        "id": 9,
+        "front": "AI",
+        "back": "Фильм про металл и силу земли",
+        "setName":"song"
+    },
+    {
+        "id": 10,
+        "front": "AI",
+        "back": "Часть самолёта + 'мертвый' человек, который летит в другую страну",
+        "setName":"song"
+    },
+    {
+        "id": 11,
+        "front": "AI",
+        "back": "Король и проблемы с тестостероном",
+        "setName":"song"
+    },
+    {
+        "id": 12,
+        "front": "AI",
+        "back": "Дорога, штиль, рок",
         "setName":"song"
     }
 ]

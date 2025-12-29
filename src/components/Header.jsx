@@ -6,7 +6,7 @@ export function Header() {
     return (
         <div className="header">
             <h1>
-                <Link className='flash__link' to="/">Флеш-карточки</Link>
+                <Link className='flash__link' to="/">AI - КОНКУРС</Link>
             </h1>
             <nav className='main-menu'>
                 <ul className='main-menu-ul'>

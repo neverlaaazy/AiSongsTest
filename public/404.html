@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redirecting...</title>
+  <script>
+    // Сохраняем текущий путь и редиректим
+    const segmentCount = 0; // для username.github.io/repo-name
+    const path = window.location.pathname.split('/').slice(segmentCount + 1).join('/');
+    const newLocation = '/' + (path ? path + window.location.search + window.location.hash : '');
+    window.location.replace(newLocation);
+  </script>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
+</html>

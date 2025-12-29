@@ -1,16 +1,16 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
+import { HashRouter as Router } from 'react-router-dom'; // Добавьте это
 import { PageViewSet } from './components/PageViewSet';
 import { PageCreateSet } from './components/PageCreateSet';
 import { PageSelectSet } from './components/PageSelectSet';
 import { FormCreateSet } from './components/FormCreateSet';
 import { FormCreateCard } from './components/FormCreateCard';
 import { PageNotFound } from './components/PageNotFound';
-
 import './App.css'
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router> {/* Замените BrowserRouter на HashRouter */}
       <Routes>
         <Route path='/' element={<PageSelectSet/>}/>
         <Route path='/set/:id' element={<PageViewSet/>}/>
@@ -20,7 +20,7 @@ function App() {
         </Route> */}
         <Route path='*' element={<PageNotFound/>}/>
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 

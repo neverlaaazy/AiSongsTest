@@ -8,6 +8,7 @@ import { useLocation} from "react-router-dom";
 
 
 export function Set(){
+    const BASE_URL = import.meta.env.BASE_URL || '/';
     const location = useLocation()
     const {set} = location.state;
 
@@ -43,7 +44,7 @@ export function Set(){
                             back={filterCardsAi[step].back}
                         />
                     </div>
-                    <audio src={`/audio/audio_ai/${step+1}.mp3`} controls></audio>
+                    <audio src={`${BASE_URL}audio/audio_ai/${step+1}.mp3`} controls></audio>
                 </div>
                 <div className="main_div_cards">
                     <div className="div_cards">
@@ -54,7 +55,7 @@ export function Set(){
                             back={filterCards[step].back}
                         />
                     </div>
-                    <audio src={`/audio/audio_orig/${step+1}.mp3`} controls></audio>
+                    <audio src={`${BASE_URL}audio/audio_orig/${step+1}.mp3`} controls></audio>
                 </div>
             </div>
             <div className="cards_manipulator">

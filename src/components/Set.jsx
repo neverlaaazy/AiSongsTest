@@ -41,7 +41,7 @@ export function Set(){
                             back={filterCardsAi[step].back}
                         />
                     </div>
-                    <audio src={`/src/audio_ai/${step+1}.mp3`} controls></audio>
+                    <audio src={`/audio/audio_ai/${step+1}.mp3`} controls></audio>
                 </div>
                 <div className="main_div_cards">
                     <div className="div_cards">
@@ -52,7 +52,7 @@ export function Set(){
                             back={filterCards[step].back}
                         />
                     </div>
-                    <audio src={`/src/audio_orig/${step+1}.mp3`} controls></audio>
+                    <audio src={`/audio/audio_orig/${step+1}.mp3`} controls></audio>
                 </div>
             </div>
             <div className="cards_manipulator">

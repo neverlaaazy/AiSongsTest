@@ -15,10 +15,6 @@ export function Set(){
     let filterCardsAi = cardsAI.filter((item)=>(item.setName === set));
     const [step, setStep] = React.useState(0);
 
-    function getAudioUrl(type, number) {
-        return new URL(`../audio_${type}/${number}.mp3`, import.meta.url).href;
-    }
-
     const handleNext = () => {
         if (step < filterCards.length - 1) {
             setStep(step + 1);
@@ -47,7 +43,7 @@ export function Set(){
                             back={filterCardsAi[step].back}
                         />
                     </div>
-                    <audio src={getAudioUrl('ai', step + 1)} controls></audio>
+                    <audio src={`/audio/audio_ai/${step+1}.mp3`} controls></audio>
                 </div>
                 <div className="main_div_cards">
                     <div className="div_cards">
@@ -58,7 +54,7 @@ export function Set(){
                             back={filterCards[step].back}
                         />
                     </div>
-                    <audio src={getAudioUrl('orig', step + 1)} controls></audio>
+                    <audio src={`/audio/audio_orig/${step+1}.mp3`} controls></audio>
                 </div>
             </div>
             <div className="cards_manipulator">

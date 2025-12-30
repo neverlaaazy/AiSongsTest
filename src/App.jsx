@@ -1,5 +1,4 @@
-import { Routes, Route } from 'react-router-dom';
-import { HashRouter as Router } from 'react-router-dom'; // Добавьте это
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'; // Добавьте это
 import { PageViewSet } from './components/PageViewSet';
 import { PageCreateSet } from './components/PageCreateSet';
 import { PageSelectSet } from './components/PageSelectSet';
